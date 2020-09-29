@@ -20,5 +20,20 @@ public class Movement : MonoBehaviour
         {
             player.transform.Translate(0,0,-1*Time.deltaTime);
         }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            player.transform.Translate(0, 0, 1 * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            player.transform.Translate(-1, 0, 0 * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            player.transform.Translate(1, 0, 0 * Time.deltaTime);
+        }
     }
 }
