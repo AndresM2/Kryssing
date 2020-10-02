@@ -59,6 +59,7 @@
      <Compile Include="Assets\KinematicSoup\SceneFusion\Extensions\Ferr2D\sfFerr2DAdaptor.cs" />
      <Compile Include="Assets\KinematicSoup\SceneFusion\FusionRoot.cs" />
      <Compile Include="Assets\Movement.cs" />
+     <Compile Include="Assets\TocoSuelo.cs" />
      <None Include="Assets\KinematicSoup\SceneFusion\Shaders\BillboardCutout.shader" />
      <None Include="Assets\KinematicSoup\SceneFusion\Stand-Ins\DoNothing.compute" />
      <None Include="Assets\KinematicSoup\SceneFusion\Shaders\Drag2D.shader" />

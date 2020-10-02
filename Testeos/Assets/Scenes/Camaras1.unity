@@ -264,6 +264,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 308158546}
+  rb: {fileID: 308158547}
+  fuerzaSalto: 8
+  puedoSaltar: 0
 --- !u!65 &308158549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -331,7 +334,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308158546}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.353, y: 0.146, z: 0.19}
   m_LocalScale: {x: 0.14619054, y: 0.14619054, z: 0.14619054}
   m_Children:
